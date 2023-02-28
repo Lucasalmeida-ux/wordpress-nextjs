@@ -1,0 +1,39 @@
+# Arquivos de configuração do WordPress
+wp-config.php
+wp-content/debug.log
+
+# Arquivos core
+wp-admin/
+wp-includes/
+
+# temas
+wp-content/themes/
+
+#language
+wp-content/languages/
+
+# Diretório de upload de mídia
+wp-content/uploads/
+
+# Arquivos e diretórios de cache
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+
+# Diretório de instalação do WordPress
+wp/
+
+# Arquivos de dependências gerados pelo Composer
+vendor/
+
+# Arquivos de ambiente e de configuração
+.env
+.env.sample
+
+# Outros arquivos de configuração
+.htaccess
+web.config
+
+# Arquivos de log do servidor
+error_log
+access_log
